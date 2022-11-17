@@ -1,3 +1,4 @@
+import {warn, danger} from 'danger'
 import * as allPRs from './allPRs'
 
 // ioS Rules
