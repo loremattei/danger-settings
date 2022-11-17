@@ -30,6 +30,7 @@ describe("PR diff size checks", () => {
         await prSize()
         
         expect(dm.warn).toHaveBeenCalledWith('PR has more than 500 lines of code changing. Consider splitting into smaller PRs if possible.')
+        
     })
 })
 
