@@ -30,4 +30,5 @@ describe("Internal Asana link test", () => {
         
         expect(dm.warn).toHaveBeenCalledWith("Please, don't forget to add a link to the internal task")
     })
+    
 })
